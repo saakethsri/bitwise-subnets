@@ -133,8 +133,8 @@ part. That doubles the network size:
 - An IP address is just a 32-bit number, so bitwise operators fit it naturally.
 - A mask is a stencil: **AND** keeps the network part, **OR with `~mask`** fills
   the host part.
-- Routers and computers check "same network?" millions of times a second, and
-  it's one AND and one compare, which is very fast.
+- Computers and routers check "same network?" constantly, and it's just two
+  ANDs and a compare (AND each IP with the mask, then compare), which is very fast.
 - Moving one bit between the network and host parts doubles or halves the
   network.
 
