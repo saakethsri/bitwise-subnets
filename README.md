@@ -185,7 +185,7 @@ To try your own addresses, change the `make_ip(...)` values in `main`.
 |------|------------|
 | [`subnet.c`](subnet.c) | C program: network address, broadcast address, same-network check |
 | [`Makefile`](Makefile) | Builds the program |
-| [`slides/`](slides/) | Presentation slides |
+| [`slides/`](slides/) | Presentation slides: [PDF](slides/bitwise-subnets-slides.pdf) and [Google Slides](https://docs.google.com/presentation/d/1440dOEc2cc8G8VPGnFc99eaXrbNMibHp1tjRmbC4cbk/edit?usp=sharing) |
 | [`ai-notes.md`](ai-notes.md) | AI exploration and reflection: prompts I used and what I learned |
 
 ## References
